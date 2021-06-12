@@ -1,0 +1,9 @@
+{
+  "code": 200,
+  "message": "成功",
+  "data": [
+    { "id": "1", "roleName": "admin", "description": "当前账号相当于admin，这些全是admin下的子角色，admin 就是超级管理员，系统应该自己初始化，不需要创建，也不能被修改", "role": [] },
+    { "id": "2", "roleName": "开发人员", "description": "开发人员也可以拥有全部权限", "role": [] },
+    { "id": "3", "roleName": "管理员", "description": "每个角色只能操作自己创建的子角色，并且只能分配自己拥有权限的页面", "role": [] }
+  ]
+}
