@@ -1,0 +1,74 @@
+{
+  "code": 200,
+  "message": "成功",
+  "data": [
+    {
+      "id": "1",
+      "path": "/index",
+      "title": "首页",
+      "icon": "el-icon-s-home",
+      "affix": true
+    },
+    {
+      "id": "2",
+      "title": "权限管理",
+      "icon": "el-icon-s-tools",
+      "children": [
+        {
+          "id": "2-1",
+          "path": "/permis/menu",
+          "title": "菜单管理"
+        },
+        {
+          "id": "2-2",
+          "path": "/permis/role",
+          "title": "角色管理"
+        },
+        {
+          "id": "2-3",
+          "path": "/permis/account",
+          "title": "用户管理"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "path": "/icon",
+      "title": "图标",
+      "icon": "el-icon-s-opportunity"
+    },
+    {
+      "id": "4",
+      "path": "/form",
+      "title": "form表单",
+      "icon": "el-icon-s-marketing"
+    },
+    {
+      "id": "5",
+      "title": "嵌套路由",
+      "icon": "el-icon-finished",
+      "children": [
+        {
+          "id": "5-1",
+          "hidden": true,
+          "path": "/menu1",
+          "title": "回到顶部",
+          "icon": "el-icon-caret-top"
+        },
+        {
+          "id": "5-2",
+          "path": "/menu2",
+          "title": "换肤预览",
+          "icon": "el-icon-s-marketing"
+        },
+        {
+          "id": "5-3",
+          "path": "/menu3",
+          "title": "无权限",
+          "icon": "el-icon-s-marketing",
+          "permission": false
+        }
+      ]
+    }
+  ]
+}
