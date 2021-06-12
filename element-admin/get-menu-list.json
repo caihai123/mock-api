@@ -7,27 +7,32 @@
       "path": "/index",
       "title": "首页",
       "icon": "el-icon-s-home",
-      "affix": true
+      "affix": true,
+      "index": 1
     },
     {
       "id": "2",
       "title": "权限管理",
       "icon": "el-icon-s-tools",
+      "index": 2,
       "children": [
         {
           "id": "2-1",
           "path": "/permis/menu",
-          "title": "菜单管理"
+          "title": "菜单管理",
+          "index": 1
         },
         {
           "id": "2-2",
           "path": "/permis/role",
-          "title": "角色管理"
+          "title": "角色管理",
+          "index": 2
         },
         {
           "id": "2-3",
           "path": "/permis/account",
-          "title": "用户管理"
+          "title": "用户管理",
+          "index": 3
         }
       ]
     },
@@ -35,38 +40,44 @@
       "id": "3",
       "path": "/icon",
       "title": "图标",
-      "icon": "el-icon-s-opportunity"
+      "icon": "el-icon-s-opportunity",
+      "index": 3
     },
     {
       "id": "4",
       "path": "/form",
       "title": "form表单",
-      "icon": "el-icon-s-marketing"
+      "icon": "el-icon-s-marketing",
+      "index": 4
     },
     {
       "id": "5",
       "title": "嵌套路由",
       "icon": "el-icon-finished",
+      "index": 5,
       "children": [
         {
           "id": "5-1",
           "hidden": true,
           "path": "/menu1",
           "title": "回到顶部",
-          "icon": "el-icon-caret-top"
+          "icon": "el-icon-caret-top",
+          "index": 1
         },
         {
           "id": "5-2",
           "path": "/menu2",
           "title": "换肤预览",
-          "icon": "el-icon-s-marketing"
+          "icon": "el-icon-s-marketing",
+          "index": 2
         },
         {
           "id": "5-3",
           "path": "/menu3",
           "title": "无权限",
           "icon": "el-icon-s-marketing",
-          "permission": false
+          "permission": false,
+          "index": 3
         }
       ]
     }
