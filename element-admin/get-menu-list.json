@@ -63,7 +63,7 @@
     {
       "id": "5",
       "type":"2",
-      "title": "嵌套路由",
+      "title": "菜单分组",
       "icon": "el-icon-finished",
       "index": 5,
       "children": [
@@ -97,6 +97,13 @@
           "index": 3
         }
       ]
+    },
+    {
+      "id":"6",
+      "type":"1",
+      "title":"嵌套路由",
+      "path":"/nested",
+      "icon":"el-icon-s-management"
     }
   ]
 }
