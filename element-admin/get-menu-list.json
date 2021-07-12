@@ -107,7 +107,8 @@
       "children": [
         {
           "parentId": "6",
-          "type": "6-1",
+          "id":"6-1",
+          "type": "1",
           "title": "详情",
           "path": "/nested/details"
         }
