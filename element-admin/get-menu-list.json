@@ -4,7 +4,7 @@
   "data": [
     {
       "id": "1",
-      "type":"1",
+      "type": "1",
       "path": "/index",
       "title": "首页",
       "icon": "el-icon-s-home",
@@ -13,31 +13,31 @@
     },
     {
       "id": "2",
-      "type":"2",
+      "type": "2",
       "title": "权限管理",
       "icon": "el-icon-s-tools",
       "index": 2,
       "children": [
         {
-          "parentId":"2",
+          "parentId": "2",
           "id": "2-1",
-          "type":"1",
+          "type": "1",
           "path": "/permis/menu",
           "title": "菜单管理",
           "index": 1
         },
         {
-          "parentId":"2",
+          "parentId": "2",
           "id": "2-2",
-          "type":"1",
+          "type": "1",
           "path": "/permis/role",
           "title": "角色管理",
           "index": 2
         },
         {
-          "parentId":"2",
+          "parentId": "2",
           "id": "2-3",
-          "type":"1",
+          "type": "1",
           "path": "/permis/account",
           "title": "用户管理",
           "index": 3
@@ -46,7 +46,7 @@
     },
     {
       "id": "3",
-      "type":"1",
+      "type": "1",
       "path": "/icon",
       "title": "图标",
       "icon": "el-icon-s-opportunity",
@@ -54,7 +54,7 @@
     },
     {
       "id": "4",
-      "type":"1",
+      "type": "1",
       "path": "/form",
       "title": "form表单",
       "icon": "el-icon-s-marketing",
@@ -62,15 +62,15 @@
     },
     {
       "id": "5",
-      "type":"2",
+      "type": "2",
       "title": "菜单分组",
       "icon": "el-icon-finished",
       "index": 5,
       "children": [
         {
-          "parentId":"5",
+          "parentId": "5",
           "id": "5-1",
-          "type":"1",
+          "type": "1",
           "hidden": true,
           "path": "/menu1",
           "title": "回到顶部",
@@ -78,18 +78,18 @@
           "index": 1
         },
         {
-          "parentId":"5",
+          "parentId": "5",
           "id": "5-2",
-          "type":"1",
+          "type": "1",
           "path": "/menu2",
           "title": "换肤预览",
           "icon": "el-icon-s-marketing",
           "index": 2
         },
         {
-          "parentId":"5",
+          "parentId": "5",
           "id": "5-3",
-          "type":"1",
+          "type": "1",
           "path": "/menu3",
           "title": "无权限",
           "icon": "el-icon-s-marketing",
@@ -99,11 +99,19 @@
       ]
     },
     {
-      "id":"6",
-      "type":"1",
-      "title":"嵌套路由",
-      "path":"/nested",
-      "icon":"el-icon-s-management"
+      "id": "6",
+      "type": "1",
+      "title": "嵌套路由",
+      "path": "/nested",
+      "icon": "el-icon-s-management",
+      "children": [
+        {
+          "parentId": "6",
+          "type": "6-1",
+          "title": "详情",
+          "path": "/nested/details"
+        }
+      ]
     }
   ]
 }
