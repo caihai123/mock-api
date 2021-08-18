@@ -103,7 +103,7 @@
       "type": "1",
       "title": "嵌套路由",
       "path": "/nested",
-      "icon": "el-icon-s-management",
+      "icon": "iconfont el-icon-Fullscreen",
       "children": [
         {
           "parentId": "6",
