@@ -48,7 +48,7 @@
             "id": "3",
             "type": "1",
             "path": "/icon",
-            "title": "图标",
+            "title": "系统图标",
             "icon": "el-icon-star-on",
             "index": 3
         },
@@ -56,7 +56,7 @@
             "id": "4",
             "type": "1",
             "path": "/form",
-            "title": "form表单",
+            "title": "表单页",
             "icon": "el-icon-s-marketing",
             "index": 4
         },
@@ -77,15 +77,15 @@
             "index": 6
         },
         {
-            "id": "6",
+            "id": "7",
             "type": "1",
             "title": "嵌套路由",
             "path": "/nested",
             "icon": "el-icon-s-promotion",
             "children": [
                 {
-                    "parentId": "6",
-                    "id": "6-1",
+                    "parentId": "7",
+                    "id": "7-1",
                     "type": "1",
                     "title": "详情",
                     "path": "/nested/details"
