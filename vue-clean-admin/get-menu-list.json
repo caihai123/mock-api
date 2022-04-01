@@ -1,96 +1,96 @@
 {
-  "code": 200,
-  "message": "成功",
-  "data": [
-    {
-      "id": "1",
-      "type": "1",
-      "path": "/index",
-      "title": "首页",
-      "icon": "el-icon-s-home",
-      "affix": true,
-      "index": 1
-    },
-    {
-      "id": "2",
-      "type": "2",
-      "title": "权限管理",
-      "icon": "el-icon-s-tools",
-      "index": 2,
-      "children": [
+    "code": 200,
+    "message": "成功",
+    "data": [
         {
-          "parentId": "2",
-          "id": "2-1",
-          "type": "1",
-          "path": "/permis/menu",
-          "title": "菜单管理",
-          "index": 1
+            "id": "1",
+            "type": "1",
+            "path": "/index",
+            "title": "首页",
+            "icon": "el-icon-s-home",
+            "affix": true,
+            "index": 1
         },
         {
-          "parentId": "2",
-          "id": "2-2",
-          "type": "1",
-          "path": "/permis/role",
-          "title": "角色管理",
-          "index": 2
+            "id": "2",
+            "type": "2",
+            "title": "权限管理",
+            "icon": "el-icon-s-tools",
+            "index": 2,
+            "children": [
+                {
+                    "parentId": "2",
+                    "id": "2-1",
+                    "type": "1",
+                    "path": "/permis/menu",
+                    "title": "菜单管理",
+                    "index": 1
+                },
+                {
+                    "parentId": "2",
+                    "id": "2-2",
+                    "type": "1",
+                    "path": "/permis/role",
+                    "title": "角色管理",
+                    "index": 2
+                },
+                {
+                    "parentId": "2",
+                    "id": "2-3",
+                    "type": "1",
+                    "path": "/permis/account",
+                    "title": "用户管理",
+                    "index": 3
+                }
+            ]
         },
         {
-          "parentId": "2",
-          "id": "2-3",
-          "type": "1",
-          "path": "/permis/account",
-          "title": "用户管理",
-          "index": 3
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "type": "1",
-      "path": "/icon",
-      "title": "图标",
-      "icon": "el-icon-star-on",
-      "index": 3
-    },
-    {
-      "id": "4",
-      "type": "1",
-      "path": "/form",
-      "title": "form表单",
-      "icon": "el-icon-s-marketing",
-      "index": 4
-    },
-    {
-      "id": "5",
-      "type": "1",
-      "path":"/table",
-      "title": "常规表格页",
-      "icon": "el-icon-s-claim",
-      "index": 5,
-    },
-    {
-      "id": "6",
-      "type": "1",
-      "path":"/theme",
-      "title": "组件换肤预览",
-      "icon": "el-icon-s-help",
-      "index": 6,
-    },
-    {
-      "id": "6",
-      "type": "1",
-      "title": "嵌套路由",
-      "path": "/nested",
-      "icon": "el-icon-s-promotion",
-      "children": [
+            "id": "3",
+            "type": "1",
+            "path": "/icon",
+            "title": "图标",
+            "icon": "el-icon-star-on",
+            "index": 3
+        },
         {
-          "parentId": "6",
-          "id":"6-1",
-          "type": "1",
-          "title": "详情",
-          "path": "/nested/details"
+            "id": "4",
+            "type": "1",
+            "path": "/form",
+            "title": "form表单",
+            "icon": "el-icon-s-marketing",
+            "index": 4
+        },
+        {
+            "id": "5",
+            "type": "1",
+            "path": "/table",
+            "title": "常规表格页",
+            "icon": "el-icon-s-claim",
+            "index": 5
+        },
+        {
+            "id": "6",
+            "type": "1",
+            "path": "/theme",
+            "title": "组件换肤预览",
+            "icon": "el-icon-s-help",
+            "index": 6
+        },
+        {
+            "id": "6",
+            "type": "1",
+            "title": "嵌套路由",
+            "path": "/nested",
+            "icon": "el-icon-s-promotion",
+            "children": [
+                {
+                    "parentId": "6",
+                    "id": "6-1",
+                    "type": "1",
+                    "title": "详情",
+                    "path": "/nested/details"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
