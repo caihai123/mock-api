@@ -62,48 +62,26 @@
     },
     {
       "id": "5",
-      "type": "2",
-      "title": "菜单分组",
-      "icon": "el-icon-finished",
+      "type": "1",
+      "path":"/table",
+      "title": "常规表格页",
+      "icon": "el-icon-s-claim",
       "index": 5,
-      "children": [
-        {
-          "parentId": "5",
-          "id": "5-1",
-          "type": "1",
-          "hidden": true,
-          "path": "/menu1",
-          "title": "回到顶部",
-          "icon": "el-icon-caret-top",
-          "index": 1
-        },
-        {
-          "parentId": "5",
-          "id": "5-2",
-          "type": "1",
-          "path": "/menu2",
-          "title": "换肤预览",
-          "icon": "el-icon-s-marketing",
-          "index": 2
-        },
-        {
-          "parentId": "5",
-          "id": "5-3",
-          "type": "1",
-          "path": "/menu3",
-          "title": "无权限",
-          "icon": "el-icon-s-marketing",
-          "permission": false,
-          "index": 3
-        }
-      ]
+    },
+    {
+      "id": "6",
+      "type": "1",
+      "path":"/theme",
+      "title": "组件换肤预览",
+      "icon": "el-icon-s-help",
+      "index": 6,
     },
     {
       "id": "6",
       "type": "1",
       "title": "嵌套路由",
       "path": "/nested",
-      "icon": "el-icon-Fullscreen iconfont",
+      "icon": "el-icon-s-promotion",
       "children": [
         {
           "parentId": "6",
