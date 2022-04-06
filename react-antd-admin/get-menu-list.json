@@ -1,0 +1,96 @@
+{
+    "code": 200,
+    "message": "成功",
+    "data": [
+        {
+            "id": "1",
+            "type": "1",
+            "path": "/index",
+            "title": "首页",
+            "icon": "HomeOutlined",
+            "affix": true,
+            "index": 1
+        },
+        {
+            "id": "2",
+            "type": "2",
+            "title": "权限管理",
+            "icon": "SafetyCertificateFilled",
+            "index": 2,
+            "children": [
+                {
+                    "parentId": "2",
+                    "id": "2-1",
+                    "type": "1",
+                    "path": "/permis/menu",
+                    "title": "菜单管理",
+                    "index": 1
+                },
+                {
+                    "parentId": "2",
+                    "id": "2-2",
+                    "type": "1",
+                    "path": "/permis/role",
+                    "title": "角色管理",
+                    "index": 2
+                },
+                {
+                    "parentId": "2",
+                    "id": "2-3",
+                    "type": "1",
+                    "path": "/permis/account",
+                    "title": "用户管理",
+                    "index": 3
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "type": "1",
+            "path": "/icon",
+            "title": "系统图标",
+            "icon": "PictureFilled",
+            "index": 3
+        },
+        {
+            "id": "4",
+            "type": "1",
+            "path": "/form",
+            "title": "表单页",
+            "icon": "FormOutlined",
+            "index": 4
+        },
+        {
+            "id": "5",
+            "type": "1",
+            "path": "/table",
+            "title": "常规表格页",
+            "icon": "TabletFilled",
+            "index": 5
+        },
+        {
+            "id": "6",
+            "type": "1",
+            "path": "/theme",
+            "title": "组件换肤预览",
+            "icon": "SkinFilled",
+            "index": 6
+        },
+        {
+            "id": "7",
+            "type": "1",
+            "title": "嵌套路由",
+            "path": "/nested",
+            "icon": "DatabaseFilled",
+            "children": [
+                {
+                    "parentId": "7",
+                    "id": "7-1",
+                    "type": "1",
+                    "title": "详情",
+                    "path": "/nested/details"
+                }
+            ]
+        }
+    ]
+}
